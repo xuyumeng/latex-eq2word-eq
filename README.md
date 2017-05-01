@@ -14,12 +14,12 @@ npm start
 
 Compile Client
 ```bash
-npm build
+npm run-script build
 ```
 
 Run server in local (Require babel-cli)
 ```bash
-npm server
+npm run-script server
 ```
 
 Compile Server (Compile server side with webpack will throw error when running because of jsdom)
